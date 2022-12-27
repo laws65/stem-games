@@ -8,6 +8,22 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node",
+"class": "Walker",
+"language": "GDScript",
+"path": "res://world/walker.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "player",
+"language": "GDScript",
+"path": "res://player/player.gd"
+} ]
+_global_script_class_icons={
+"Walker": "",
+"player": ""
+}
+
 [application]
 
 config/name="STEM Shooty Dungeon game"
